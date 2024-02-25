@@ -136,7 +136,7 @@ def page_visualization_2d():
     st.title("Visualisation en 2D")
     st.write("Visualisation en 2D du graphe de route choisi.")
 
-    # Add dropdown menu for 2D visualization options
+    
     visualization_option = st.selectbox("Sélectionnez l'option de visualisation en 2D", ["City Name","New York City, New York, USA", "Paris, France"])
     st.write("Vous avez sélectionné:", visualization_option)
 
@@ -216,3 +216,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
